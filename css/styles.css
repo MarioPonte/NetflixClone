@@ -23,10 +23,24 @@
  }
 
  .divEmail{
-   margin: 22px;
+   margin-bottom: 80px;
    font-family: "NetflixSans";
-   font-size: 20px;
+   font-size: 19px;
    font-weight: 100;
+ }
+
+ .btnSession{
+  font-family: "NetflixSans" !important;
+  font-weight: 100 !important;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+ }
+
+ .emailContent{
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
  }
 
  .headingText{
@@ -46,8 +60,20 @@
    height: 57px;
    width: 480px;
    position: absolute;
-   left: 32%;
  }
+
+ .inputSize{
+   width: 500px !important;
+   height: 67px !important;
+   border-radius: 0px !important;
+ }
+
+ .btnSize{
+    width: 200px !important;
+    height: 67px !important;
+    font-size: 32px !important;
+    border-radius: 0px !important;
+  }
 
  .btnEmail{
    font-family: "NetflixSans";
@@ -57,16 +83,18 @@
    padding-right: 24px;
    height: 57px;
    position: absolute;
-   right: 32%;
  }
 
- #scroll{
+ .scroll{
    background-color: #000;
    border-top: solid 8px #222;
+   overflow: hidden;
  }
 
  .footerPage{
   border-top: solid 8px #222;
+  color: #555;
+  font-family: "NetflixSans";
  }
 
  .accordion-button{
@@ -91,6 +119,18 @@
    font-size: 50px;
    margin: 50px;
  }
+
+ .accordion{
+   margin: 50px !important;
+ }
+
+.selectCountry{
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family: "NetflixSans" !important;
+  padding: 5px 10px 5px 10px;
+  border-radius: 2px;
+}
 
  /* ...... */
 
@@ -6589,7 +6629,7 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
