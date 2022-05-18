@@ -120,6 +120,12 @@
    margin: 50px;
  }
 
+.accordion-body{
+  font-family: "NetflixSans" !important;
+  font-size: 26px !important;
+  font-weight: 100 !important;
+}
+
  .accordion{
    margin: 50px !important;
  }
@@ -130,6 +136,15 @@
   font-family: "NetflixSans" !important;
   padding: 5px 10px 5px 10px;
   border-radius: 2px;
+}
+
+.sectionTitle{
+  font-weight: 600 !important;
+}
+
+.sectionDescription{
+  font-size: 24px !important;
+  font-weight: 100 !important;
 }
 
  /* ...... */
@@ -4821,9 +4836,7 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #f784bc;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(238, 9, 121, 0.25);
 }
 
 .accordion-header {
@@ -7869,6 +7882,7 @@ textarea.form-control-lg {
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  font-family: 'NetflixSans' !important;
 }
 
 .text-body {
