@@ -159,6 +159,11 @@
 
 @media only screen and (max-width: 949px) {
 
+  #logoBrand{
+    margin-top: 14px;
+    width: 110px;
+  }
+
   .emailContent{
     display: grid;  
     justify-content: center;  
@@ -182,11 +187,43 @@
 }
 
 @media only screen and (max-width: 739px) {
+
+  .headingText{
+    font-size: 26px;
+  }
+
+  .headDescription{
+    font-size: 18px;
+  }
   
   .inputSize{
     width: 500px !important;
     height: 47px !important;
     border-radius: 0px !important;
+  }
+
+}
+
+@media only screen and (max-width: 599px) {
+
+  #logoBrand{
+    width: 80px;
+  }
+  
+  .inputSize{
+    width: 82vw !important;
+  }
+
+  .btnSession{
+    font-size: 14px;
+    padding: 2.5px 5px 2.5px 5px;
+    border-radius: 4px;
+  }
+
+  .selectCountry{
+    font-size: 14px;
+    padding: 2.5px 5px 2.5px 5px;
+    border-radius: 2px;
   }
 
 }
