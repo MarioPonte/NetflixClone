@@ -147,6 +147,14 @@
   font-weight: 100 !important;
 }
 
+.sectionTitle{
+  text-align: center !important;
+}
+
+.sectionDescription{
+  text-align: center !important;
+}
+
 
 
 @media only screen and (max-width: 1199px) {
@@ -182,6 +190,19 @@
      font-size: 16px !important;
      border-radius: 2px !important;
      margin-top: 10px;
+  }
+
+  .sectionDescription{
+    font-size: 18px !important;
+    font-weight: 100 !important;
+  }
+
+  .accordion-button{
+    font-size: 22px !important;
+  }
+
+  .accordion-body{
+    font-size: 20px !important;
   }
 
 }
